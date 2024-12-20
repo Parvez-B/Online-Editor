@@ -277,6 +277,10 @@
         if (savedHtml !== null) document.getElementById('htmlCode').value = savedHtml;
         if (savedCss !== null) document.getElementById('cssCode').value = savedCss;
         if (savedJs !== null) document.getElementById('jsCode').value = savedJs;
+
+         document.getElementById('htmlCode').value = '';
+            document.getElementById('cssCode').value = '';
+            document.getElementById('jsCode').value = '';
         
         // Run the saved code
         runCode();
